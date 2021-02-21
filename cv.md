@@ -118,3 +118,32 @@ Participating in full product development lifecycle.
 **English - ** *B1-Level*
 **French  - ** *A2-Level*
 **Russian - ** *Native*
+
+
+
+### Hobbies
+
+***
+
+*Music*
+*New technologies*
+*Trips*
+*Guitar*
+*Languages*
+*Cars*
+
+***
+
+
+
+### Strengths
+
+***
+
+*Curious*
+*Adaptable*
+*Fairness*
+*Learning from Mistakes Well*
+
+***
+
