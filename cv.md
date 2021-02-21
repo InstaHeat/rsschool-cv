@@ -1,8 +1,11 @@
 # Yury Korenevsky
 
 Minsk, Belarus
+
 **Mobile**: *+375 (29) 506-79-89*
+
 **E-mail**: *southtown456@gmail.com*
+
 **Telegram**: *@Instarasta*
 
 
@@ -12,8 +15,11 @@ Minsk, Belarus
 ------
 
 I have spent the last year developing my skills as a web developer.
+
 Addicted to self improvement, learning new skills and information.
+
 Developing web application by MVC technology.
+
 Participating in full product development lifecycle. 
 
 
@@ -23,17 +29,29 @@ Participating in full product development lifecycle.
 ***
 
 ★★★☆☆ C#
+
 ★★★☆☆ WPF
+
 ★★★★☆ ASP.NET 
+
+
 
 ★★★☆☆ SQL
 
+
+
 ★★★☆☆ HTML/CSS
+
 ★★☆☆☆ JavaScript
+
 ★★☆☆☆ Vue JS
 
+
+
 ★★★★☆ Git 
+
 ★★★★☆ Vsiual Studio 2017 / Vsiual Studio Code 
+
 ★★★☆☆ MS SQL Server
 
 ***
@@ -116,7 +134,9 @@ Participating in full product development lifecycle.
 ***
 
 **English - ** *B1-Level*
+
 **French  - ** *A2-Level*
+
 **Russian - ** *Native*
 
 
@@ -126,10 +146,15 @@ Participating in full product development lifecycle.
 ***
 
 *Music*
+
 *New technologies*
+
 *Trips*
+
 *Guitar*
+
 *Languages*
+
 *Cars*
 
 ***
@@ -141,8 +166,11 @@ Participating in full product development lifecycle.
 ***
 
 *Curious*
+
 *Adaptable*
+
 *Fairness*
+
 *Learning from Mistakes Well*
 
 ***
