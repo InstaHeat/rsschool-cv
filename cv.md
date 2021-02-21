@@ -7,6 +7,17 @@ Minsk, Belarus
 
 
 
+### Summary
+
+------
+
+I have spent the last year developing my skills as a web developer.
+Addicted to self improvement, learning new skills and information.
+Developing web application by MVC technology.
+Participating in full product development lifecycle. 
+
+
+
 ### Skills
 
 ***
@@ -59,3 +70,51 @@ Minsk, Belarus
 
 ***
 
+
+
+### Work Experience
+
+------
+
+*June, 2020 - Present*  - **Software Engineer**
+
+* Executing full lifecycle software development
+* Programming well-designed, testable, efficient code
+* Developing and implenenting new components
+* Software testing
+* Deploying programs and evaluate user feedback
+
+
+
+*December, 2015 - Oct. 2018* -  **Customer Service Representative**
+
+* interacting with customers face-to-face
+* providing information about products, services and equipment
+* answering questions and resolving problems with technological equipment
+* dealing with requests or complaints
+
+------
+
+
+
+### Education
+
+***
+
+- Minsk State College of Electronics  - 2010
+
+- Minsk State Linguistic University - 2015
+
+- Institute Of Information Technologies BSUIR - 2020
+
+***
+
+
+
+### Languages
+
+***
+
+**English - ** *B1-Level*
+**French  - ** *A2-Level*
+**Russian - ** *Native*
