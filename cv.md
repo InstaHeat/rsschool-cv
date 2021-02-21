@@ -129,7 +129,7 @@ Participating in full product development lifecycle.
 
 **English** -  *B1-Level*
 
-**French ** - *A2-Level*
+**French** - *A2-Level*
 
 **Russian** - *Native*
 
