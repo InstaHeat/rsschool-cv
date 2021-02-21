@@ -1,12 +1,12 @@
 # Yury Korenevsky
 
-Minsk, Belarus
+Minsk, Belarus  
 
-**Mobile**: *+375 (29) 506-79-89*
+**Mobile**: *+375 (29) 506-79-89*  
 
-**E-mail**: *southtown456@gmail.com*
+**E-mail**: *southtown456@gmail.com*  
 
-**Telegram**: *@Instarasta*
+**Telegram**: *@Instarasta*   
 
 
 
@@ -34,11 +34,7 @@ Participating in full product development lifecycle.
 
 ★★★★☆ ASP.NET 
 
-
-
 ★★★☆☆ SQL
-
-
 
 ★★★☆☆ HTML/CSS
 
@@ -46,9 +42,7 @@ Participating in full product development lifecycle.
 
 ★★☆☆☆ Vue JS
 
-
-
-★★★★☆ Git 
+★★★★☆ Git
 
 ★★★★☆ Vsiual Studio 2017 / Vsiual Studio Code 
 
@@ -133,11 +127,11 @@ Participating in full product development lifecycle.
 
 ***
 
-**English - ** *B1-Level*
+**English** -  *B1-Level*
 
-**French  - ** *A2-Level*
+**French ** - *A2-Level*
 
-**Russian - ** *Native*
+**Russian** - *Native*
 
 
 
