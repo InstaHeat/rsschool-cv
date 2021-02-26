@@ -1,7 +1,13 @@
 * {
   box-sizing: border-box;
-  /* margin: 0; */
 }
+
+html,
+body {
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+}
+
 .header {
   display: flex;
   flex-direction: column;
@@ -11,15 +17,13 @@
 .header-title {
   text-align: center;
   font-weight: 800;
-  font-family: Arial, Helvetica, sans-serif;
   margin: auto;
   height: 200px;
   width: 800px;
-  background-color: lemonchiffon;
   line-height: 5;
 }
 
-.header-title-content {
+.header-title_text {
   text-align: center;
 }
 
@@ -30,28 +34,20 @@
   margin: auto;
   text-align: center;
   align-items: center;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .contacts {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  font-size: 24px;
-  text-align: center;
-}
-
-.header-contacts {
   font-size: 20px;
   text-align: left;
 }
 
-.contacts-list-item {
-  list-style: none;
-}
-
-.header-img {
+.image-icon {
   width: 200px;
   height: 250px;
+}
+
+.list-item {
+  list-style: none;
 }
 
 .main {
@@ -60,17 +56,55 @@
   text-align: left;
 }
 
-.main-summary {
+.section {
+  padding-top: 1rem;
   width: 800px;
   margin: auto;
+  padding-bottom: 1rem;
 }
 
-.title {
-  margin-top: 15px;
-}
-
-.about {
-  /* font-family: Arial, Helvetica, sans-serif; */
+.section-content_text {
   font-size: 20px;
   margin: 0;
+}
+
+.section-content_code {
+  background-color: #f1f1f1;
+}
+
+.table {
+  width: 90%;
+  margin: 0 auto;
+}
+
+table,
+th,
+td {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+  border-collapse: collapse;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+.table-head {
+  font-size: 22px;
+
+  margin: 0;
+}
+
+.table-body {
+  font-size: 20px;
+  margin: 0;
+}
+
+.footer-content {
+  padding-top: 1rem;
+  width: 800px;
+  height: 250px;
+  margin: auto;
+  padding-bottom: 1rem;
 }
