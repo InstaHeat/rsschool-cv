@@ -77,28 +77,29 @@ body {
   margin: 0 auto;
 }
 
+.table-head {
+  font-size: 22px;
+  background-color: #5b96b8;
+  color: white;
+}
+
+.table-body {
+  font-size: 20px;
+}
+
 table,
 th,
 td {
+  table-layout: fixed;
+  width: 100%;
   border: 1px solid #dddddd;
   text-align: center;
   padding: 8px;
   border-collapse: collapse;
 }
 
-tr:hover {
+.table-row:hover {
   background-color: #f5f5f5;
-}
-
-.table-head {
-  font-size: 22px;
-
-  margin: 0;
-}
-
-.table-body {
-  font-size: 20px;
-  margin: 0;
 }
 
 .footer-content {
@@ -107,4 +108,35 @@ tr:hover {
   height: 250px;
   margin: auto;
   padding-bottom: 1rem;
+  line-height: 3;
+}
+
+.footer-header_title {
+  text-align: center;
+}
+
+.social-media {
+  text-align: center;
+  list-style: none;
+  margin: 0;
+}
+
+.social-media_item {
+  display: inline-block;
+  margin: 0px 5px;
+}
+
+.social-media_icon {
+  width: 50px;
+  height: 50px;
+}
+
+.social-media_icon:hover {
+  transform: scale(1.5);
+  transition: all 0.2s ease-in-out;
+}
+
+.copyright {
+  text-align: center;
+  margin-bottom: 1rem;
 }
