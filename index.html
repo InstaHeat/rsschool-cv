@@ -10,223 +10,225 @@
     
 </head>
 <body>
-    <header class="header">
-        <div class="header-title">
-            <h1 class="header-title_text"> Yury Korenevsky </h1>
-        </div>
-
-        <div class="header-content">
-            <div class="image">
-                <img class="image-icon" src="./img/brownie.jpg" alt="Avatar">
-            </div>
-            
-            <div class="contacts">
-                <ul class="list">
-                    <li class="list-item"><b>Minsk, Belarus</b> </li>
-                    <li class="list-item"><b>Mobile:</b> +375 (29) 506-79-89</li> 
-                    <li class="list-item"><b>E-mail:</b> southtown456@gmail.com</li>
-                    <li class="list-item"><b>Telegram:</b> @Instarasta</li> 
-                </ul>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header-title">
+                <h1 class="header-title_text"> Yury Korenevsky </h1>
             </div>
 
-        </div>
-    </header>
-
-    <main class="main">
-        <section class="section">
-            <div class="section-header">
-                <h2 class="section-header_title">Summary</h2>
-            </div>
-            <hr>
-                <div class="section-content">
-                    <p class="section-content_text">I have spent the last year developing my skills as a web developer.</p>
-                    <p class="section-content_text">Addicted to self improvement, learning new skills and information.</p>
-                    <p class="section-content_text">Developing web application by MVC technology.</p>
-                    <p class="section-content_text">Participating in full product development lifecycle. </p>
+            <div class="header-content">
+                <div class="image">
+                    <img class="image-icon" src="./img/brownie.jpg" alt="Avatar">
                 </div>
-            <hr>
-        </section>
-        <section class="section">
-            <div class="section-header" >
-                <h2 class="section-header_title">Skills</h2>
+                
+                <div class="contacts">
+                    <ul class="list">
+                        <li class="list-item"><b>Minsk, Belarus</b> </li>
+                        <li class="list-item"><b>Mobile:</b> +375 (29) 506-79-89</li> 
+                        <li class="list-item"><b>E-mail:</b> southtown456@gmail.com</li>
+                        <li class="list-item"><b>Telegram:</b> @Instarasta</li> 
+                    </ul>
+                </div>
+
             </div>
-            <hr>
-            <div class="section-content">
-                <ul class="section-content_text">
-                    <li> C# </li>
-                    <li> Wpf </li>
-                    <li> Asp.Net </li>
-                    <li> Sql </li>
-                    <li> Html/Css </li>
-                    <li> JavaScript </li>
-                    <li> Vue JS </li>
-                    <li> Git </li>
-                    <li> Vsiual Studio 2017 / Vsiual Studio Code</li>
-                    <li> Ms Sql Server</li>
-                </ul>
-            </div>
-            
-            <hr>
-        </section>
-        <section class="section">
-            <div class="section-header">
-                <h2 class="section-header_title">Code Examples</h2>
-            </div>
-            
-            <hr>
-            <div class="section-content">
-                <pre class="section-content_code">
-                    public static string[] SortStringArray(string[] array)
-                    {
-                        string tmp;
-                    
-                        if (array == null)
-                        throw new ArgumentNullException("Exception");
-                                        
-                        for(int i = 0; i < array.Length - 1; i++)
+        </header>
+
+        <main class="main">
+            <section class="section">
+                <div class="section-header">
+                    <h2 class="section-header_title">Summary</h2>
+                </div>
+                <hr>
+                    <div class="section-content">
+                        <p class="section-content_text">I have spent the last year developing my skills as a web developer.</p>
+                        <p class="section-content_text">Addicted to self improvement, learning new skills and information.</p>
+                        <p class="section-content_text">Developing web application by MVC technology.</p>
+                        <p class="section-content_text">Participating in full product development lifecycle. </p>
+                    </div>
+                <hr>
+            </section>
+            <section class="section">
+                <div class="section-header" >
+                    <h2 class="section-header_title">Skills</h2>
+                </div>
+                <hr>
+                <div class="section-content">
+                    <ul class="section-content_text">
+                        <li> C# </li>
+                        <li> Wpf </li>
+                        <li> Asp.Net </li>
+                        <li> Sql </li>
+                        <li> Html/Css </li>
+                        <li> JavaScript </li>
+                        <li> Vue JS </li>
+                        <li> Git </li>
+                        <li> Vsiual Studio 2017 / Vsiual Studio Code</li>
+                        <li> Ms Sql Server</li>
+                    </ul>
+                </div>
+                
+                <hr>
+            </section>
+            <section class="section">
+                <div class="section-header">
+                    <h2 class="section-header_title">Code Examples</h2>
+                </div>
+                
+                <hr>
+                <div class="section-content">
+                    <pre class="section-content_code">
+                        public static string[] SortStringArray(string[] array)
                         {
-                            for(int j = i + 1; j < array.Length; j++)
+                            string tmp;
+                        
+                            if (array == null)
+                            throw new ArgumentNullException("Exception");
+                                            
+                            for(int i = 0; i < array.Length - 1; i++)
                             {
-                                if (array[j].Length > array[j + 1].Length)
+                                for(int j = i + 1; j < array.Length; j++)
                                 {
-                                    tmp = array[i];
-                                    array[i] = array[j];
-                                    array[j] = tmp;
+                                    if (array[j].Length > array[j + 1].Length)
+                                    {
+                                        tmp = array[i];
+                                        array[i] = array[j];
+                                        array[j] = tmp;
+                                    }
                                 }
                             }
                         }
-                    }
-                    
-                </pre>
-            </div>  
-            <hr>
-        </section>
-        <section class="section">
-            <div class="section-header" >
-                <h2 class="section-header_title">Work Experience</h2>
-            </div>
-            <hr>
+                        
+                    </pre>
+                </div>  
+                <hr>
+            </section>
+            <section class="section">
+                <div class="section-header" >
+                    <h2 class="section-header_title">Work Experience</h2>
+                </div>
+                <hr>
+                    <div class="section-content">
+                        <h3 class="section-content_title">June, 2020 - Present - Software Engineer</h3>
+                        <ul class="section-content_text">
+                            <li>Executing full lifecycle software development</li>
+                            <li>Programming well-designed, testable, efficient code</li>
+                            <li>Developing and implenenting new components</li>
+                            <li>Software testing</li>
+                            <li>Deploying programs and evaluate user feedback</li>
+            
+                        </ul>
+                        <h3 class="section-content_title">December, 2015 - Oct. 2018 - Customer Service Representative</h3>
+                        <ul class="section-content_text">
+                            <li>Interacting with customers face-to-face</li>
+                            <li>Providing information about products, services and equipment</li>
+                            <li>Aanswering questions and resolving problems with technological equipment</li>
+                            <li>Dealing with requests or complaints</li>
+            
+                        </ul>
+                    </div>
+                <hr>
+            </section>
+
+            <section class="section">
+                <div class="section-header">
+                    <h2 class="section-header_title">Education</h2>
+                </div>
+                <hr>
                 <div class="section-content">
-                    <h3 class="section-content_title">June, 2020 - Present - Software Engineer</h3>
                     <ul class="section-content_text">
-                        <li>Executing full lifecycle software development</li>
-                        <li>Programming well-designed, testable, efficient code</li>
-                        <li>Developing and implenenting new components</li>
-                        <li>Software testing</li>
-                        <li>Deploying programs and evaluate user feedback</li>
-        
-                    </ul>
-                    <h3 class="section-content_title">December, 2015 - Oct. 2018 - Customer Service Representative</h3>
-                    <ul class="section-content_text">
-                        <li>Interacting with customers face-to-face</li>
-                        <li>Providing information about products, services and equipment</li>
-                        <li>Aanswering questions and resolving problems with technological equipment</li>
-                        <li>Dealing with requests or complaints</li>
-        
+                        <li>Institute Of Information Technologies BSUIR - <b>2020</b></li>
+                        <li>Minsk State Linguistic University - <b>2015</b></li>
+                        <li>Minsk State College of Electronics - <b>2010</b></li>
                     </ul>
                 </div>
-            <hr>
-        </section>
+                <hr>
+            </section>
 
-        <section class="section">
-            <div class="section-header">
-                <h2 class="section-header_title">Education</h2>
-            </div>
-            <hr>
-            <div class="section-content">
-                <ul class="section-content_text">
-                    <li>Institute Of Information Technologies BSUIR - <b>2020</b></li>
-                    <li>Minsk State Linguistic University - <b>2015</b></li>
-                    <li>Minsk State College of Electronics - <b>2010</b></li>
-                </ul>
-            </div>
-             <hr>
-        </section>
+            <section class="section">
+                <div class="section-header" >
+                    <h2 class="section-header_title">Languages</h2>
+                </div>
+                <hr>
+                <table class="table">
+                    <thead class="table-head">
+                        <tr>
+                            <th>Language</th>
+                            <th>Level</th>
+                        </tr>
+                    </thead>
+                    <tbody class="table-body">
+                        <tr class="table-row">
+                            <td>English</td>
+                            <td>B1</td>
+                        </tr>
+                        <tr class="table-row">
+                            <td>French</td>
+                            <td>A2</td>
+                        </tr>
+                        <tr class="table-row">
+                            <td>Russian</td>
+                            <td>Native</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <hr>
+            </section>
 
-        <section class="section">
-            <div class="section-header" >
-                <h2 class="section-header_title">Languages</h2>
-            </div>
-            <hr>
-            <table class="table">
-                <thead class="table-head">
-                    <tr>
-                        <th>Language</th>
-                        <th>Level</th>
-                    </tr>
-                </thead>
-                <tbody class="table-body">
-                    <tr class="table-row">
-                        <td>English</td>
-                        <td>B1</td>
-                    </tr>
-                    <tr class="table-row">
-                        <td>French</td>
-                        <td>A2</td>
-                    </tr>
-                    <tr class="table-row">
-                        <td>Russian</td>
-                        <td>Native</td>
-                    </tr>
-                </tbody>
-            </table>
-            <hr>
-        </section>
+            <section class="section">
+                <div class="section-header" >
+                    <h2 class="section-header_title">Hobbies</h2>
+                </div>
+                <hr>
+                <div class="section-content">
+                    <ul class="section-content_text">
+                        <li>Music</li>
+                        <li>New technologies</li>
+                        <li>Trips</li>
+                        <li>Guitar</li>
+                        <li>Languages</li>
+                        <li>Cars</li>
+                    </ul>
+                </div>
+                <hr>
+            </section>
 
-        <section class="section">
-            <div class="section-header" >
-                <h2 class="section-header_title">Hobbies</h2>
-            </div>
-            <hr>
-            <div class="section-content">
-                <ul class="section-content_text">
-                    <li>Music</li>
-                    <li>New technologies</li>
-                    <li>Trips</li>
-                    <li>Guitar</li>
-                    <li>Languages</li>
-                    <li>Cars</li>
-                </ul>
-            </div>
-            <hr>
-        </section>
+            <section class="section">
+                <div class="section-header" >
+                    <h2 class="section-header_title">Strengths</h2>
+                </div>
+                <hr>
+                <div class="section-content">
+                    <ul class="section-content_text">
+                        <li>Curious</li>
+                        <li>Adaptable</li>
+                        <li>Fairness</li>
+                        <li>Learning from Mistakes Well</li>
+                    </ul>
+                </div>
+                <hr>
+            </section>
+        </main>
 
-        <section class="section">
-            <div class="section-header" >
-                <h2 class="section-header_title">Strengths</h2>
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-header" >
+                    <h2 class="footer-header_title">Social media: </h2>
+                </div>
+                <div class="social-media">
+                    <a class="social-media_item" href="https://github.com/InstaHeat">
+                        <img class="social-media_icon" src="./img/git.svg" alt="GitHub">
+                    </a>
+                    <a class="social-media_item" href="https://www.instagram.com/instarasta/">
+                        <img class="social-media_icon" src="./img/instagram.svg" alt="Instagram">
+                    </a>
+                    <a class="social-media_item" href="https://t.me/Instarasta">
+                        <img class="social-media_icon" src="./img/telegram.svg" alt="Telegram">
+                    </a>
+                </div>
+                
             </div>
-            <hr>
-            <div class="section-content">
-                <ul class="section-content_text">
-                    <li>Curious</li>
-                    <li>Adaptable</li>
-                    <li>Fairness</li>
-                    <li>Learning from Mistakes Well</li>
-                </ul>
-            </div>
-            <hr>
-        </section>
-    </main>
-
-    <footer class="footer">
-        <div class="footer-content">
-            <div class="footer-header" >
-                <h2 class="footer-header_title">Social media: </h2>
-            </div>
-            <div class="social-media">
-                <a class="social-media_item" href="https://github.com/InstaHeat">
-                    <img class="social-media_icon" src="./img/git.svg" alt="GitHub">
-                </a>
-                <a class="social-media_item" href="https://www.instagram.com/instarasta/">
-                    <img class="social-media_icon" src="./img/instagram.svg" alt="Instagram">
-                </a>
-                <a class="social-media_item" href="https://t.me/Instarasta">
-                    <img class="social-media_icon" src="./img/telegram.svg" alt="Telegram">
-                </a>
-            </div>
-            
-        </div>
-        <p class="copyright"> Yury Korenevsky © 2021 </p>
-    </footer>
+            <p class="copyright"> Yury Korenevsky © 2021 </p>
+        </footer>
+    </div>
 </body>
 </html>
